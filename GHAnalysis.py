@@ -5,7 +5,6 @@ import getopt
 import argparse
 
 
-
 def get_json(path_to_data):
     file_list = os.listdir(path_to_data)
     jsfile = open('js_data.json', 'w', encoding = 'utf-8')
